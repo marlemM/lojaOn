@@ -1,0 +1,93 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos da seção hero */
+#hero {
+    background-color: #f2f2f2;
+    padding: 100px;
+    text-align: center;
+}
+
+#products-section {
+    background-color: #f2f2f2;
+    padding: 100px;
+    text-align: center;
+}
+
+#hero h2 {
+    margin-top: 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Estilos da seção de produtos */
+#products {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .product-item {
+    flex: 0 0 auto;
+    text-align: auto;
+    padding: 20px;
+  }
+  
+  .product-item img {
+    width: 200px;
+    height:auto;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+  
