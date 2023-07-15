@@ -85,6 +85,7 @@ footer {
   
   .product-item img {
     width: 200px;
+    margin: auto;
     height:auto;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
