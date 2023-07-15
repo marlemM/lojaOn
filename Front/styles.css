@@ -90,4 +90,11 @@ footer {
     align-items: center; /* Centraliza verticalmente */
 }
 
+#whatsapp-button {
+    position: fixed;
+    bottom: 1px;
+    right: 1px;
+    z-index: 2000;
+    height: auto;
+  }
   

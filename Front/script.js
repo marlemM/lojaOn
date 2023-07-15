@@ -26,5 +26,21 @@ $(document).ready(function() {
     productsSection.scrollIntoView({ behavior: "smooth", block: "start" });
     event.preventDefault(); // Evita o comportamento padrão do link
   }
+
+  window.addEventListener('scroll', function() {
+    var button = document.getElementById('whatsapp-button');
+    if (button) {
+      var windowHeight = window.innerHeight || document.documentElement.clientHeight;
+      var buttonHeight = button.offsetHeight;
+      var scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop;
+  
+      if (scrollPosition > windowHeight - buttonHeight) {
+        button.style.bottom = '20px';
+      } else {
+        button.style.bottom = (windowHeight - scrollPosition - buttonHeight + 20) + 'px';
+      }
+    }
+  });
+  
   
   
